@@ -1,0 +1,54 @@
+.headerBar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  left:0;
+}
+
+.headerBar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 15px 20px;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.headerBar a:hover {
+  background: #ddd;
+  color: black;
+}
+
+.central-body {
+  margin-left:auto;
+  margin-right:auto;
+  width: 80%;
+  padding-top: 40px;
+  font-size: 18px;
+}
+
+.photo-circle {
+  border-radius:30%;
+  width: 25%;
+  height: auto;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+
+table {
+  width:100%; 
+  background: lightblue;
+}
+
+.text-resize {
+  font-size: 18px;
+}
+
+* {
+  font-family: sans-serif;
+}
