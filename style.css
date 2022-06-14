@@ -5,6 +5,7 @@
   top: 0;
   width: 100%;
   left:0;
+  line-height: 1;
 }
 
 .headerBar a {
@@ -28,6 +29,7 @@
   width: 80%;
   padding-top: 40px;
   font-size: 18px;
+  line-height: 300%;
 }
 
 .photo-circle {
@@ -51,4 +53,12 @@ table {
 
 * {
   font-family: sans-serif;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
 }
